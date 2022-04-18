@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: solid lightgray 1px;
+  padding: 30px;
+}
+
+.data-class {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.operator-class {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.current-screen {
+  width: 200px;
+  height: 40px;
+  border: solid lightgray 1px;
+  margin-bottom: 10px;
+}
+
+.equal-button {
+  height: 40px;
+  width: 40px;
+}
